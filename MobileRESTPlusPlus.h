@@ -11,5 +11,9 @@
 
 #include <iostream>
 #include <curl/curl.h>
+#include <string.h>
+
+int statusCodeForServicePath(std::string servicePath);
+void printSucka();
 
 #endif /* defined(__MobileRESTPlusPlus__MobileRESTPlusPlus__) */

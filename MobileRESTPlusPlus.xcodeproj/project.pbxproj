@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		944D0CE717590A6900F8AF47 /* libMobileRESTPlusPlus.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9492CF111758E64700200861 /* libMobileRESTPlusPlus.dylib */; };
+		944D0CE917590F9100F8AF47 /* libcurl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 944D0CE817590F9100F8AF47 /* libcurl.dylib */; };
 		9492CF1A1758E69100200861 /* MobileRESTPlusPlus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9492CF181758E69100200861 /* MobileRESTPlusPlus.cpp */; };
 		9492CF1B1758E69100200861 /* MobileRESTPlusPlus.h in Headers */ = {isa = PBXBuildFile; fileRef = 9492CF191758E69100200861 /* MobileRESTPlusPlus.h */; };
 		9492CF231758E77400200861 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9492CF221758E77400200861 /* main.cpp */; };
 		9492CF251758E77400200861 /* TestServicesProject.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9492CF241758E77400200861 /* TestServicesProject.1 */; };
-		9492CF291758E79600200861 /* libMobileRESTPlusPlus.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9492CF111758E64700200861 /* libMobileRESTPlusPlus.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		944D0CE817590F9100F8AF47 /* libcurl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcurl.dylib; path = usr/lib/libcurl.dylib; sourceTree = SDKROOT; };
 		9492CF111758E64700200861 /* libMobileRESTPlusPlus.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libMobileRESTPlusPlus.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		9492CF181758E69100200861 /* MobileRESTPlusPlus.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MobileRESTPlusPlus.cpp; sourceTree = "<group>"; };
 		9492CF191758E69100200861 /* MobileRESTPlusPlus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobileRESTPlusPlus.h; sourceTree = "<group>"; };
@@ -41,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				944D0CE917590F9100F8AF47 /* libcurl.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9492CF291758E79600200861 /* libMobileRESTPlusPlus.dylib in Frameworks */,
+				944D0CE717590A6900F8AF47 /* libMobileRESTPlusPlus.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +61,7 @@
 		9492CF081758E64700200861 = {
 			isa = PBXGroup;
 			children = (
+				944D0CE817590F9100F8AF47 /* libcurl.dylib */,
 				9492CF181758E69100200861 /* MobileRESTPlusPlus.cpp */,
 				9492CF191758E69100200861 /* MobileRESTPlusPlus.h */,
 				9492CF211758E77400200861 /* TestServicesProject */,
@@ -284,6 +288,7 @@
 				9492CF171758E64700200861 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9492CF261758E77400200861 /* Build configuration list for PBXNativeTarget "TestServicesProject" */ = {
 			isa = XCConfigurationList;
@@ -292,6 +297,7 @@
 				9492CF281758E77400200861 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
