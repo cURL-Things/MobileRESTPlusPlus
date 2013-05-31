@@ -10,14 +10,13 @@
 #include <string.h>
 #include "MobileRESTPlusPlus.h"
 
-int main(int argc, const char * argv[])
-{
-    std::string servicePath = "http://www.google.com";
-    int status_code = statusCodeForServicePath(servicePath);
-    std::cout << "Service Response Code: " << status_code << "\n";
+int main(int argc, const char * argv[]) {
+    
+    std::cout << "Service Response Code: " << statusCodeForServicePath("http://www.google.com") << "\n";
     
     printSucka();
     
     return 0;
+    
 }
 
